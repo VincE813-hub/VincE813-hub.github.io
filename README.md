@@ -1,1 +1,65 @@
 # VincE813-hub.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vincent Otwori | Business Solutions</title>
+    <style>
+        /* Modern Dark Theme */
+        body { font-family: 'Inter', sans-serif; margin: 0; background: #0f172a; color: white; line-height: 1.6; }
+        header { padding: 80px 20px; text-align: center; background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); }
+        h1 { font-size: 3rem; color: #38bdf8; margin-bottom: 10px; }
+        .container { max-width: 1000px; margin: auto; padding: 40px 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .card { background: #1e293b; padding: 25px; border-radius: 12px; border: 1px solid #334155; }
+        
+        /* Contact Form Styling */
+        .form-container { background: #1e293b; padding: 30px; border-radius: 12px; border: 1px solid #38bdf8; margin-top: 40px; }
+        input, textarea { width: 100%; padding: 12px; margin: 10px 0; border-radius: 8px; border: 1px solid #334155; background: #0f172a; color: white; box-sizing: border-box; }
+        .btn { display: inline-block; background: #38bdf8; color: #0f172a; padding: 12px 30px; border-radius: 8px; font-weight: bold; text-decoration: none; border: none; cursor: pointer; width: 100%; font-size: 1rem; }
+        
+        footer { text-align: center; padding: 40px; color: #94a3b8; font-size: 0.9rem; border-top: 1px solid #334155; margin-top: 50px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Vincent Otwori</h1>
+        <p>Computer Science Student @ Maseno University | Developer</p>
+    </header>
+
+    <div class="container">
+        <h2 style="text-align:center">Services I Offer</h2>
+        <div class="grid">
+            <div class="card">
+                <h3 style="color: #38bdf8;">Web Development</h3>
+                <p>Fast, mobile-friendly landing pages for local businesses in Maseno.</p>
+            </div>
+            <div class="card">
+                <h3 style="color: #38bdf8;">Python Automation</h3>
+                <p>Custom scripts to automate your repetitive tasks and save time.</p>
+            </div>
+            <div class="card">
+                <h3 style="color: #38bdf8;">Technical Support</h3>
+                <p>Expert troubleshooting and digital consulting for small shops.</p>
+            </div>
+        </div>
+
+        <div class="form-container">
+            <h2 style="text-align:center; color: #38bdf8;">Get a Free Quote</h2>
+            <form action="https://formspree.io/f/mojnbkww" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email Address" required>
+                <textarea name="message" placeholder="Tell me about your project..." rows="5" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Developed by Vincent Otwori | Maseno, Kenya</p>
+    </footer>
+
+</body>
+</html>
