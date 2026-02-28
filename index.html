@@ -23,13 +23,36 @@
         .btn { display: inline-block; background: #38bdf8; color: #0f172a; padding: 12px 30px; border-radius: 8px; font-weight: bold; text-decoration: none; border: none; cursor: pointer; width: 100%; font-size: 1rem; }
         
         footer { text-align: center; padding: 40px; color: #94a3b8; font-size: 0.9rem; border-top: 1px solid #334155; margin-top: 50px; }
-    </style>
+    .cv-btn {
+    display: inline-block;
+    background: transparent;
+    color: #38bdf8;
+    border: 2px solid #38bdf8;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.cv-btn:hover {
+    background: #38bdf8;
+    color: #0f172a;
+    box-shadow: 0 0 15px rgba(56, 189, 248, 0.5);
+}
+</style>
 </head>
 <body>
 
     <header>
         <h1>Vincent Otwori</h1>
-        <p>Computer Science Student @ Maseno University | Developer</p>
+        <p>Computer Science Student @ Maseno University</p>
+<a href="Vincent_Otwori_CV.pdf" class="cv-btn" target="_blank">
+    <i class="fas fa-file-download"></i> Download CV
+</a>
+
+
     </header>
 
     <div class="container">
